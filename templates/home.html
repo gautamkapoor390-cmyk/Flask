@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Flask Website</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+        <div class="logo">
+            FlaskSite
+        </div>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="content">
+
+            <h1>Welcome to My Flask Website</h1>
+
+            <p>
+                Build amazing web applications using Flask, Python and HTML/CSS.
+            </p>
+
+            <a href="#" class="btn">
+                Get Started
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+
+    <section class="features">
+
+        <div class="card">
+
+            <h2>⚡ Fast</h2>
+
+            <p>Lightweight Python Framework.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>🎨 Responsive</h2>
+
+            <p>Looks beautiful on every device.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>🔒 Secure</h2>
+
+            <p>Easy to develop secure web applications.</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Flask Website | Designed by Gautam Kapoor
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
